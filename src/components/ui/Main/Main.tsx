@@ -1,3 +1,4 @@
+'use client';
 import React from 'react'
 import Banner from '@/components/ui/Banner/Banner'
 import Promotion from '@/components/ui/Promotions/Promotion'

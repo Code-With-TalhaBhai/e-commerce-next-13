@@ -1,6 +1,7 @@
 "use client"
 
 import React from "react"
+import Image from "next/image"
 
 type Props = {}
 
@@ -23,7 +24,7 @@ const Promotion = (props: Props) => {
             <p>For the summer season</p>
           </div>
           <div className="h-[100%]">
-            <img className="h-[100%]" src="/event1.webp" alt="" />
+            <Image width={300} height={220} className="h-[100%]" src="/event1.webp" alt="" />
           </div>
         </div>
 
@@ -39,7 +40,7 @@ const Promotion = (props: Props) => {
             </div>
 
             <div className="w-[86%]">
-              <img className="object-cover" src="/event2.webp" alt="" />
+              <Image width={300} height={220} className="object-cover" src="/event2.webp" alt="" />
             </div>
           </div>
         </div>
@@ -56,7 +57,7 @@ const Promotion = (props: Props) => {
             </div>
 
             <div className="w-[85%]">
-              <img className="object-cover" src="/event3.webp" alt="" />
+              <Image width={300} height={220} className="object-cover" src="/event3.webp" alt="" />
             </div>
           </div>
         </div>

@@ -5,6 +5,7 @@ import b2 from '@/../public/brush2.jpeg';
 import b3 from '@/../public/man3.webp';
 import { Button } from '@/components/ui/button';
 import { ShoppingCart } from 'lucide-react';
+import Productinfo from '@/components/ui/ProductInfo/Productinfo';
 
 type Props = {}
 
@@ -57,6 +58,10 @@ export default function page({}: Props) {
               </div>
 
             </div>
+        </div>
+
+        <div className='my-40 w-full'>
+          <Productinfo/>
         </div>
     </div>
   )
